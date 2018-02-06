@@ -1,5 +1,7 @@
 /* --- Variables --- */
 
+
+
 /* --- Main styles --- */
 
 h1, h2, h3{
@@ -36,7 +38,7 @@ main {
 }
 
 .banner{
-    background: #3e84da;
+    background: var(--ciplex);
     color: #fff;
     font-size: 1.6em;
     text-align: center;
@@ -48,7 +50,7 @@ main {
     margin: 0 auto;
     position: relative;
     top: -100px;
-    padding: 40px 60px;
+    padding: var(--pad-content);
     background: #fff
 }
 
